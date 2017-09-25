@@ -1,0 +1,179 @@
+body{
+    font-family: 'Open-sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin:0;
+    padding:0;
+}
+.container{
+    margin: auto;
+}
+.primary-text{
+color: #56a79a;
+}
+.primary-background{
+color:#56a79a;
+}
+#main-header{
+    border-bottom: 1px solid #56a79a;
+}
+#navbar{
+    text-transform: uppercase;
+}
+#navbar li{
+    display: inline;
+    padding-right: 20px;
+    list-style: none;
+}
+#navbar a{
+    text-decoration: none;
+    color: #888;
+    
+}
+#navbar li.current a, #navbar a:hover{
+    color:#56a79a;
+    border-bottom: 3px solid #56a79a;
+    padding-bottom: 3px;
+}
+img{
+    width: 100%;
+}
+#showcase{
+    background: url("http://res.cloudinary.com/dinwmdlb9/image/upload/v1503945663/road-sun-rays-path_byanhw.jpg") no-repeat center center;
+      border-bottom: 1px solid #56a79a;
+    margin-bottom: 30px;
+  
+}
+#showcase .row{
+    height: 600px;
+}
+#showcase h1{
+    font-family: "Julee";
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 20px;
+    color: #fff;
+}
+#about h2{
+    font-size: 35px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+#about p{
+    color: #888;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+#skill{
+    background: url("http://res.cloudinary.com/dinwmdlb9/image/upload/v1503945657/info-bg_l8cwk8.jpg")no-repeat center center;
+  background-size: cover;
+    padding: 50px 0;
+    color: #fff;
+}
+#skill h2{
+    font-size: 35px;
+    margin: 0 0 10px 0;
+    padding-bottom: 20px;
+}
+#skill ul{
+    list-style: none;
+    padding: 0;
+}
+#skill li{
+    font-size: 18px;
+    line-height: 1.5em;        
+}
+#work h2{
+    font-size: 35px;
+    color: #fff;
+}
+#work h4{
+    font-size: 25px;
+    color: #1e0033;
+}
+#work .row{
+    padding: 20px;
+}
+#work {
+    background: url("http://res.cloudinary.com/dinwmdlb9/image/upload/v1506334555/paint-notebook-brush-pencil-159657_upkpqq.jpg") no-repeat center center;
+  background-size: cover;
+  
+}
+#contact ul{
+    padding: 0;
+    list-style: none;
+    line-height: 2em;
+}
+#contact li{
+    font-size: 15px;
+    line-height: 4em;
+    letter-spacing: 0.1em;
+}
+#contact .fa{
+    font-size: 30px;
+    color: #56a79a;
+    width: 2em;
+       
+}
+#contact h4{
+  font-weight: 700;
+}
+#contact h1{
+  letter-spacing: 0.2em;
+}
+#contact #bro .fa{
+    font-size: 60px;
+    color: #56a79a;
+   box-sizing: border-box;
+    border: 2px solid #56a79a;
+}
+#contact #bro .fa:hover{
+    
+    background-color:#000000;
+}
+#contact #bro .fa:active{
+    
+    background-color:#000000;
+}
+#contact #bro{
+    padding-top: 20px;
+    margin: 20px;
+    opacity: 0.6;
+}
+#contact .row{
+    padding: 10px;
+    
+}
+#contact{
+      background: url("http://res.cloudinary.com/dinwmdlb9/image/upload/v1506334455/pexels-photo-214240_xlcc5u.jpg")no-repeat center center;
+  background-size: cover;
+    padding: 10px 0;
+    border-top: 3px solid #56a79a;
+    color: #fff;
+    
+}
+#main-footer {
+    background: #000000;
+    color: #fff;
+   
+}
+
+
+@media screen and (max-width: 430px) and (min-width: 333px){
+  #navbar li{
+    display: inline;
+    padding-right: 10px;
+    list-style: none;
+}
+}
+@media screen and (max-width: 372px){
+  #navbar li{
+    display: inline;
+    padding-right: 0px;
+    list-style: none;
+}
+  #navbar ul{
+    padding-left: 5px;
+  }
+}
